@@ -9,7 +9,7 @@
 /**
  * MonkMakes Plant Monitor block
  */
-//% color=190 weight=100 icon="\uf135" block="Plant Monitor"
+//% color=190 weight=100 icon="\uf1bb" block="Plant Monitor"
 namespace PlantMonitor {
 
     let value_str = ""
