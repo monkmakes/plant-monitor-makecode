@@ -2,8 +2,7 @@
     "name": "Plant Monitor",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "Plant Monitor Logger": "github:monkmakes/plant-monitor-makecode#d01f7a8f64f299cd78406e02a210087887826ed7"
+        "core": "*"
     },
     "files": [
         "main.blocks",
