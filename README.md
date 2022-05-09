@@ -1,6 +1,8 @@
 
 > Open this page at [https://monkmakes.github.io/plant-monitor-makecode/](https://monkmakes.github.io/plant-monitor-makecode/)
 
+This extension makes it super-easy to use the MonkMakes Plant Monitor (https://monkmakes.com/pmon)
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
@@ -10,18 +12,14 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/monkmakes/plant-monitor-makecode** and import
 
-## Edit this project ![Build status badge](https://github.com/monkmakes/plant-monitor-makecode/workflows/MakeCode/badge.svg)
+## Connecting Your micro:bit
 
-To edit this repository in MakeCode.
+Your micro:bit uses pins 1 and 2 to communicate with the Plant Monitor's serial interface. Use alligator clip leads to connect your micro:bit and Plant Monitor as shown below.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/monkmakes/plant-monitor-makecode** and click import
 
-## Blocks preview
 
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
+## Example Project
+This example shows the wetness using the bar graph block. Pressing button A will show the temperature in dgrees C and pressing button B, the relative humidity as a percentage.
 
 ![A rendered view of the blocks](https://github.com/monkmakes/plant-monitor-makecode/raw/master/.github/makecode/blocks.png)
 
