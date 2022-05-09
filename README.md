@@ -16,6 +16,8 @@ This repository can be added as an **extension** in MakeCode.
 
 Your micro:bit uses pins 1 and 2 to communicate with the Plant Monitor's serial interface. Use alligator clip leads to connect your micro:bit and Plant Monitor as shown below.
 
+!Connecting]https://github.com/monkmakes/plant-monitor-makecode/raw/master/connecting_mb.png)
+
 
 
 ## Example Project
