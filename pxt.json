@@ -2,7 +2,8 @@
     "name": "Plant Monitor Logger",
     "description": "",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "Plant Monitor Logger": "github:monkmakes/plant-monitor-makecode#d01f7a8f64f299cd78406e02a210087887826ed7"
     },
     "files": [
         "main.blocks",
@@ -24,5 +25,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
