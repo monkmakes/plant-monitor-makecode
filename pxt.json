@@ -1,6 +1,6 @@
 {
     "name": "Plant Monitor",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "An extension for the MonkMakes Plant Montor capacitive moisture meter with temperature and relative humidity measurement.",
     "dependencies": {
         "core": "*"
