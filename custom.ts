@@ -37,9 +37,9 @@ namespace PlantMonitor {
 
 
     /**
-    * Init
-    */
-    //% blockId=device_init block="Start Plant Monitor"
+     * Start the Plant Monitor - this will redirect serial to P1 and P2
+     */
+    //% blockId=device_init block="start plant monitor"
     export function startMon(): void {
         serial.redirect(
             SerialPin.P2,
@@ -51,7 +51,7 @@ namespace PlantMonitor {
     /**
     * Return the wetness 0-100.
     */
-    //% blockId=device_wetness block="Plant Wetness (0-100)"
+    //% blockId=device_wetness block="plant wetness"
     export function readWetness(): number {
         serial.writeString("w")
         basic.pause(200)
@@ -59,9 +59,9 @@ namespace PlantMonitor {
     }
 
     /**
-    * Return the wetness 0-255.
+    * Return the wetness using the analog output (0-100).
     */
-    //% blockId=device_wetness_analog block="Plant Wetness Analog (0-100)"
+    //% blockId=device_wetness_analog block="plant wetness analog"
     export function readWetnessAnalog(): number {
         let raw = pins.analogReadPin(AnalogPin.P0)
         let pc = Math.floor(raw / 7.73)
@@ -72,9 +72,9 @@ namespace PlantMonitor {
     }
 
     /**
-    * Return the temp deg C.
+    * Return the temperature in degrees C.
     */
-    //% blockId=device_temp block="Plant Temperature (deg C)"
+    //% blockId=device_temp block="plant temperature"
     export function readTemp(): number {
         serial.writeString("t")
         basic.pause(200)
@@ -83,9 +83,9 @@ namespace PlantMonitor {
 
 
     /**
-    * Return the temp deg C.
+    * Return the relative humidity as a percentage.
     */
-    //% blockId=device_humidity block="Plant Humidity"
+    //% blockId=device_humidity block="plant humidity"
     export function readHumidity(): number {
         serial.writeString("h")
         basic.pause(200)
@@ -93,17 +93,17 @@ namespace PlantMonitor {
     }
 
     /**
-    * LED
+    * Turn the LED on
     */
-    //% blockId=device_led_on block="Plant Monitor LED on"
+    //% blockId=device_led_on block="plant monitor LED on"
     export function monitor_led_on(): void {
         serial.writeString("L")
     }
 
     /**
-    * LED
+    * Turn the LED off
     */
-    //% blockId=device_led_off block="Plant Monitor LED off"
+    //% blockId=device_led_off block="plant monitor LED off"
     export function monitor_led_off(): void {
         serial.writeString("l")
     }

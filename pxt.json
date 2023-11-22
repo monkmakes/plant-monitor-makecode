@@ -1,13 +1,12 @@
 {
     "name": "Plant Monitor",
-    "version": "0.0.4",
-    "description": "An extension for the MonkMakes Plant Montor capacitive moisture meter with temperature and relative humidity measurement.",
+    "version": "0.0.5",
+    "description": "An extension for the MonkMakes Plant Montor capacitive moisture meter.",
+    "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
         "custom.ts"
     ],
@@ -15,15 +14,11 @@
         "test.ts"
     ],
     "targetVersions": {
-        "branch": "v3.0.67",
-        "tag": "v3.0.67",
-        "commits": "https://github.com/microsoft/pxt-microbit/commits/b1dd6c3bcb9b2df57dfdd0bc4442971d81a1859d",
-        "target": "4.0.18",
-        "pxt": "6.0.39",
+        "target": "6.0.19",
         "targetId": "microbit"
-    },
+        },
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
