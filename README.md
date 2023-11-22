@@ -1,7 +1,7 @@
 
 > Open this page at [https://monkmakes.github.io/plant-monitor-makecode/](https://monkmakes.github.io/plant-monitor-makecode/)
 
-This extension makes it super-easy to use the MonkMakes Plant Monitor (https://monkmakes.com/pmon)
+This extension makes it super-easy to use the [MonkMakes Plant Monitor](https://monkmakes.com/pmon)
 
 ## Use as Extension
 
@@ -10,7 +10,7 @@ This repository can be added as an **extension** in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/monkmakes/plant-monitor-makecode** and import
+* search for **Plant Monitor** select **MonkMakes Planr Monitor** and import
 
 ## Connecting Your micro:bit
 
@@ -18,6 +18,7 @@ Your micro:bit uses pins 1 and 2 to communicate with the Plant Monitor's serial 
 
 ![Connecting](https://github.com/monkmakes/plant-monitor-makecode/raw/master/connecting_mb.png)
 
+You can also optionally connect P0 of the micro:bit to the left-most of the Plant Monotr (icon looks like a plot). This allows you to use the Plant Monitors and alog output measurement of the moisture level.
 
 
 ## Example Project
@@ -25,7 +26,7 @@ This example shows the wetness using the bar graph block. Pressing button A will
 
 ![A rendered view of the blocks](https://github.com/monkmakes/plant-monitor-makecode/raw/master/.github/makecode/blocks.png)
 
-#### Metadata (used for search, rendering)
+## Documentation
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+A datasheet and full instructions for the Plant Monitor, both for the micro:bit and many other platforms such as the Raspbery Pi, Arduino etc can be found on the [product page for the MonkMakes Plant Monitor](https://monkmakes.com/pmon)
+
